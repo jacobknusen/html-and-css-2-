@@ -1,0 +1,75 @@
+body{
+    padding: 0;
+    margin: 0;
+
+}
+header{
+    background-color: rgb(182, 180, 180);
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+
+}
+#logo{
+    background-color: blue;
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+}
+
+.paragah{
+    background-color: white;
+    height: 300px;
+    width: 100%;
+    margin: 20px 20px;
+}
+.paragah p{
+    font-size:16px ;
+    margin: 50px 25px;
+}
+
+.colord-box{
+height: 200px;
+width: 100%;
+z-index: 1;
+}
+
+
+#blue-box{ background-color: lightblue ;}
+#turqouise-box{background-color: turquoise;}
+#lightgreen-box{background-color: lightgreen;}
+#yellow-box{
+    background-color:yellow;
+    display:flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: relative;
+    
+}
+
+#circle{
+    position:sticky;
+    bottom: 200px;
+    right: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(3, 3, 3);
+    border-radius: 50%;
+     display: flex; 
+     justify-content: center;
+     align-items: center;
+     z-index: 2;
+     
+     
+    
+}
+
+#circle-child{
+font-size: 25px;
+color: white;
+}
